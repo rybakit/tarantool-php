@@ -36,18 +36,18 @@ $ TARANTOOL_BOX_PATH=/path/to/tarantool/bin/tarantool ./test-run.py
 
 ## Installing from PEAR
 
-Tarantool-PHP Have it's own [PEAR repository](https://tarantool.github.io/tarantool-php).
+Tarantool-PHP have it's own [PEAR repository](https://tarantool.github.io/tarantool-php).
 You may install it from PEAR with just a few commands:
 
-```
-pecl channel-discover tarantool.github.io/tarantool-php/pecl
-pecl install Tarantool-PHP/Tarantool-beta
+```sh
+$ pecl channel-discover tarantool.github.io/tarantool-php/pecl
+$ pecl install Tarantool-PHP/Tarantool-beta
 ```
 
 
 ## Building RPM/DEB/PECL Packages
 
-For building packages - please, read `README.PACK.md`
+For building packages - please, read [README.PACK.md](README.PACK.md).
 
 
 ## IDE autocompletion
